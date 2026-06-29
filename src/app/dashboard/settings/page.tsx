@@ -56,7 +56,7 @@ export default function SettingsPage() {
             <div className="bg-white border border-error-container rounded-2xl p-8">
               <h2 className="text-[20px] font-bold text-error mb-2">Danger Zone</h2>
               <p className="text-on-surface-variant mb-6 text-sm">Once you delete your account, there is no going back. Please be certain.</p>
-              <Button variant="outline" className="border-error text-error hover:bg-error-container">
+              <Button variant="secondary" className="border-error text-error hover:bg-error-container hover:text-on-error transition-colors">
                 Delete Account
               </Button>
             </div>
